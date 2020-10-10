@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.App {
+  background-color: #eee;
+  padding: 0 16px;
+}
+.form-inline .form-control {
+  width: 222px !important;
+}
+header {
+  background-color: #a1c31c;
+  margin: auto -16px;
+  padding: 8px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.li-list {
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 15px;
+  cursor: pointer;
+}
+.avatar {
+  font-size: 80px;
+}
+.li-list:hover {
+  background: #eee;
+  border: 1px solid #000;
+}
+.form-group {
+  padding-left: 10px;
+}
+.li-label {
+  padding: 5px;
+  font-size: 23px;
+  font-weight: 500;
+}
+header h1 {
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+.list-unstyled {
+  overflow-y: auto;
+  height: 315px;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  height: 4.5rem;
+  width: 100%;
+  background: #eee;
+  line-height: 55px;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 730px;
+  margin: 16px;
+  float: left;
+  height: 446px;
+}
+.search {
+  position: relative;
+  padding: 1rem 15px;
+  margin-right: -15px;
+  margin-left: -15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.sidePanel {
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #fff;
+  padding: 10px;
+  width: 267px;
+  margin: 16px;
+  height: 446px;
+}
+.col-sm-2 {
+  font-weight: 600;
+}
+.note h1 {
+  margin-bottom: 6px;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
